@@ -1,4 +1,4 @@
-CREATE TABLE AD_CAMPAIGN (
+CREATE TABLE IF NOT EXISTS AD_CAMPAIGN (
 	partner_id varchar(20) primary key,
 	duration bigint,
 	ad_content varchar(255),
